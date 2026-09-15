@@ -15,7 +15,7 @@ const CASE_STUDIES = [
     category: "DTC",
     result: "4.2x ROAS",
     description: "Scaled a skincare brand from $10k to $150k monthly spend while maintaining efficiency.",
-    image: "https://images.unsplash.com/photo-1556228578-8c7c767a300a?q=80&w=2340&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1596462502278-27ef999716f3?q=80&w=2340&auto=format&fit=crop",
   },
   {
     category: "Fitness",

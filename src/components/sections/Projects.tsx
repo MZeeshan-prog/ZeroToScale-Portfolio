@@ -10,7 +10,7 @@ const PROJECTS = [
   {
     title: "Luxury Skin Care",
     category: "Ads",
-    image: "https://images.unsplash.com/photo-1556228578-8c7c7ef77027?q=80&w=800&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1596462502278-27ef999716f3?q=80&w=800&auto=format&fit=crop",
     result: "4.2x ROAS",
   },
   {
