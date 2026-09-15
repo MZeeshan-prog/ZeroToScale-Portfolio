@@ -1,0 +1,80 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-heading: var(--font-heading);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --radius-lg: var(--radius);
+}
+
+:root {
+  --background: #08090B;
+  --foreground: #F4F6F5;
+  --card: #101215;
+  --card-foreground: #F4F6F5;
+  --popover: #101215;
+  --popover-foreground: #F4F6F5;
+  --primary: #B8FF2E;
+  --primary-foreground: #08090B;
+  --secondary: #222629;
+  --secondary-foreground: #F4F6F5;
+  --muted: #222629;
+  --muted-foreground: #8E9599;
+  --accent: #B8FF2E;
+  --accent-foreground: #08090B;
+  --destructive: oklch(0.577 0.245 27.325);
+  --border: #222629;
+  --input: #222629;
+  --ring: #B8FF2E;
+  --radius: 0.9rem;
+}
+
+.dark {
+  --background: #08090B;
+  --foreground: #F4F6F5;
+  --card: #101215;
+  --card-foreground: #F4F6F5;
+  --popover: #101215;
+  --popover-foreground: #F4F6F5;
+  --primary: #B8FF2E;
+  --primary-foreground: #08090B;
+  --secondary: #222629;
+  --secondary-foreground: #F4F6F5;
+  --muted: #222629;
+  --muted-foreground: #8E9599;
+  --accent: #B8FF2E;
+  --accent-foreground: #08090B;
+  --destructive: oklch(0.577 0.245 27.325);
+  --border: #222629;
+  --input: #222629;
+  --ring: #B8FF2E;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  html {
+    @apply font-sans;
+  }
+}
