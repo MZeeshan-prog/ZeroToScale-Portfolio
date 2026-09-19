@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import Image from "next/image";
+import { Instagram } from "lucide-react";
 import { useState, useEffect } from "react";
 
 export default function Navbar() {
@@ -48,6 +49,15 @@ export default function Navbar() {
               {item}
             </Link>
           ))}
+          <div className="h-4 w-px bg-white/10 mx-2" />
+          <a
+            href="https://www.instagram.com/zeroto.scale/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-muted-foreground hover:text-primary transition-colors"
+          >
+            <Instagram size={20} />
+          </a>
         </div>
 
         <Button
