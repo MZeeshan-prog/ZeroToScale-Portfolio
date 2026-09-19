@@ -4,10 +4,9 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 
 const STATS = [
-  { label: "Avg ROAS", value: "3.4x", color: "text-primary" },
-  { label: "Revenue Scaled", value: "$12M+", color: "text-foreground" },
-  { label: "Creatives Tested", value: "1,200+", color: "text-foreground" },
-  { label: "Active Brands", value: "40+", color: "text-primary" },
+  { label: "Revenue Scaled", value: "$200K+", color: "text-primary" },
+  { label: "Creatives Tested", value: "200+", color: "text-foreground" },
+  { label: "Active Brands", value: "11+", color: "text-primary" },
 ];
 
 const CASE_STUDIES = [
@@ -41,7 +40,7 @@ export default function Results() {
   return (
     <section id="results" className="py-24 px-6 bg-background">
       <div className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-24">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-24">
           {STATS.map((stat, i) => (
             <motion.div
               key={stat.label}
