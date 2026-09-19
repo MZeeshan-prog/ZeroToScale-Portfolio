@@ -42,7 +42,7 @@ export default function Navbar() {
           {["Services", "Work", "Process", "Pricing", "FAQ"].map((item) => (
             <Link
               key={item}
-              href={`#${item.toLowerCase()}`}
+              href={item === "Work" ? "#ugc" : `#${item.toLowerCase()}`}
               className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
             >
               {item}
