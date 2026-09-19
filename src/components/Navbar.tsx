@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import Image from "next/image";
-import { Instagram } from "lucide-react";
+import { InstagramIcon } from "lucide-react";
 import { useState, useEffect } from "react";
 
 export default function Navbar() {
@@ -56,7 +56,7 @@ export default function Navbar() {
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-primary transition-colors"
           >
-            <Instagram size={20} />
+            <InstagramIcon size={20} />
           </a>
         </div>
 
